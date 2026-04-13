@@ -1,23 +1,18 @@
--- =========================
--- ADATBÁZIS
--- =========================
+
 DROP DATABASE IF EXISTS eventdb;
 CREATE DATABASE eventdb;
 USE eventdb;
 
--- =========================
--- USER
--- =========================
+
 CREATE TABLE User (
     Id INT PRIMARY KEY,
     Name VARCHAR(100) NOT NULL,
     Password VARCHAR(255) NOT NULL,
-    EventId INT
+    EventId INT,
+    ImgUrl VARCHAR(600)
 );
 
--- =========================
--- REGIST (regisztrációk)
--- =========================
+
 CREATE TABLE Regist (
     Id INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(100) NOT NULL,
@@ -26,9 +21,7 @@ CREATE TABLE Regist (
     Status ENUM('pending','approved','rejected') DEFAULT 'pending'
 );
 
--- =========================
--- LOGIN
--- =========================
+
 CREATE TABLE Login (
     Id INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(100),
@@ -36,9 +29,7 @@ CREATE TABLE Login (
     Email VARCHAR(150)
 );
 
--- =========================
--- EVENT
--- =========================
+
 CREATE TABLE Event (
     Id INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(100),
@@ -51,18 +42,13 @@ CREATE TABLE Event (
     Wheres VARCHAR(100)
 );
 
--- =========================
--- KAPCSOLAT
--- =========================
+
 ALTER TABLE User
 ADD CONSTRAINT fk_user_event
 FOREIGN KEY (EventId) REFERENCES Event(Id);
 
--- =========================
--- ADMIN (ID = 0)
--- =========================
-INSERT INTO User (Id, Name, Password, EventId)
-VALUES (0, 'admin', 'admin123', NULL);
+INSERT INTO User (Id, Name, Password, EventId,ImgUrl)
+VALUES (0, 'admin', 'admin123', NULL,adminKépe);
 
 -- =========================
 -- TRIGGER: CSAK ADMIN FOGADHAT EL
