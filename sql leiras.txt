@@ -1,4 +1,4 @@
-Event:
+Eventt:
 	Id: egész szám  Elsődleges kulcs, automatikusan növekvő azonosító.
 	Name: szöveg (max. 255) Az esemény neve, kötelező kitölteni (NOT NULL).
 	Descr: hosszú szöveg Az esemény részletes leírása.
@@ -9,7 +9,7 @@ Event:
 	Important: logikai Fontos jelölés (alapértelmezetten hamis/0).
 	Wheres: szöveg (max. 255) Az esemény helyszíne.
 
-User:
+Users:
 	Id: egész szám Elsődleges kulcs (manuálisan megadott).
 	Name: szöveg (max. 255) Felhasználónév, kötelező kitölteni.
 	Password: szöveg (max. 255) Jelszó, kötelező kitölteni.
