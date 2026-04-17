@@ -1,0 +1,24 @@
+Event:
+	Id: egész szám  Elsődleges kulcs, automatikusan növekvő azonosító.
+	Name: szöveg (max. 255) Az esemény neve, kötelező kitölteni (NOT NULL).
+	Descr: hosszú szöveg Az esemény részletes leírása.
+	Dates: dátum és idő Általános időbélyeg vagy rögzítési idő.
+	Datetol: dátum és idő Az esemény kezdő időpontja.
+	Dateig: dátum és idő Az esemény záró időpontja.
+	Categ: szöveg (max. 100) Az esemény kategóriája.
+	Important: logikai Fontos jelölés (alapértelmezetten hamis/0).
+	Wheres: szöveg (max. 255) Az esemény helyszíne.
+
+User:
+	Id: egész szám Elsődleges kulcs (manuálisan megadott).
+	Name: szöveg (max. 255) Felhasználónév, kötelező kitölteni.
+	Password: szöveg (max. 255) Jelszó, kötelező kitölteni.
+	EventId: egész szám Idegen kulcs, az Event tábla Id mezőjére hivatkozik.
+	ImgUrl: szöveg (max. 255) Profilkép elérési útja (URL).
+	Email: szöveg (max. 255) E-mail cím.
+
+Regist:
+	Id: egész szám Elsődleges kulcs, automatikusan növekvő azonosító.
+	Name: szöveg (max. 255) Név vagy felhasználónév.
+	Password: szöveg (max. 255) Megadott jelszó.
+	Email: szöveg (max. 255) Kapcsolattartási e-mail cím.
