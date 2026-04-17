@@ -1,6 +1,6 @@
 
-CREATE TABLE Event (
-    Id SERIAL PRIMARY KEY,
+CREATE TABLE Eventt (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(255) NOT NULL,
     Descr TEXT,
     Dates DATETIME,
@@ -12,26 +12,24 @@ CREATE TABLE Event (
 );
 
 
-CREATE TABLE User (
-    Id INTEGER PRIMARY KEY,
+CREATE TABLE Users (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(255) NOT NULL,
     Password VARCHAR(255) NOT NULL,
-    EventId INTEGER,
+    EventId INT,
     ImgUrl VARCHAR(255),
     Email VARCHAR(255),
-    FOREIGN KEY (EventId) REFERENCES Event(Id)
+    FOREIGN KEY (EventId) REFERENCES Eventt(Id)
 );
 
 
 CREATE TABLE Regist (
-    Id SERIAL PRIMARY KEY,
+    Id INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(255),
     Password VARCHAR(255),
     Email VARCHAR(255)
 );
 
 
-
-INSERT INTO User (Id, Name, Password, Email, EventId, ImgUrl) 
-VALUES (0, 'Admin', 'biztonsagos_jelszo_123', 'admin@example.com', NULL, 'admin_avatar.png');
-
+INSERT INTO Users (Name, Password, Email, EventId, ImgUrl) 
+VALUES ('Admin', 'biztonsagos_jelszo_123', 'admin@example.com', NULL, 'admin_avatar.png');
