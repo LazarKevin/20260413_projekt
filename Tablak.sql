@@ -19,7 +19,6 @@ CREATE TABLE Users (
     Osztaly VARCHAR(50),
     EventId INT,
     ImgNumber VARCHAR(255),
-    Email VARCHAR(255),
     FOREIGN KEY (EventId) REFERENCES Eventt(Id)
 );
 
@@ -34,6 +33,6 @@ VALUES
     ('Tavaszi takarítónap', 'Közös iskolaudvar-rendezés', '2026-04-22 09:00:00', '2026-04-22 13:00:00', 'Kültéri', FALSE, 'Iskolaudvar'),
     ('Egészségnap', 'Egészséges életmóddal kapcsolatos programok', '2026-05-10 08:00:00', '2026-05-10 16:00:00', 'Beltéri', FALSE, 'Tornaterem');
 
-INSERT INTO Users (Name, Password, Email, Osztaly, EventId, ImgNumber)
+INSERT INTO Users (Name, Password, Osztaly, EventId, ImgNumber)
 VALUES
-    ('Admin',       '$2b$12$adminHashExample000001', 'admin@example.com',    NULL,   NULL, '1.png');
+    ('Admin', '$2a$12$YV48ONE67FQ5XmUB4ay7guzn7HrcXxJPpJioe69QuYo/N2VgOU1iu', NULL, NULL, '1.png');
