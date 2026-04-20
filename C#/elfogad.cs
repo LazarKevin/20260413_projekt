@@ -1,4 +1,4 @@
-﻿using MySql.Data.MySqlClient;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,37 +17,63 @@ namespace regElfogad
         {
             InitializeComponent();
         }
-        string connStr = "server=localhost;database=adatok;uid=root;pwd=mysql;";
-        private void Form1_Load(object sender, EventArgs e)
+        private void Frissites()
         {
-            button1.Visible = false;
-            button2.Visible = false;
             using (MySqlConnection conn = new MySqlConnection(connStr))
             {
                 conn.Open();
                 string sql = "Select * from regist";
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                MySqlDataAdapter da = new MySqlDataAdapter(sql, conn);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
                 dataGridView1.DataSource = dt;
-                dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+
+                button1.Visible = false;
+                button2.Visible = false;
+                kijeloltId = -1;
+                dataGridView1.ClearSelection();
+            }
+        }
+        string connStr = "server=localhost;database=iskola;uid=root;pwd=mysql;";
+        int kijeloltId = -1;
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            Frissites();
+
+
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                kijeloltId = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells["Id"].Value);
+                button1.Visible = true;
+                button2.Visible = true;
+
+                dataGridView1.Rows[e.RowIndex].Selected = true;
             }
 
         }
 
-        private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellEventArgs e)
-        {
-            button1.Visible = true;
-            button2.Visible = true;
-            
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            dataGridView1.ClearSelection();
-            button1.Visible=false;
-            button2.Visible=false;
+            if (kijeloltId == -1) return;
+
+            using (MySqlConnection conn = new MySqlConnection(connStr))
+            {
+                conn.Open();
+                string sql = "DELETE FROM Regist WHERE Id = @id";
+                using (MySqlCommand cmd = new MySqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@id", kijeloltId);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            Frissites();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -55,8 +81,27 @@ namespace regElfogad
             using (MySqlConnection conn = new MySqlConnection(connStr))
             {
                 conn.Open();
+
+                string copySql = "INSERT INTO Users (Name, Password, Email) " +
+                                 "SELECT Name, Password, Email FROM Regist WHERE Id = @id;";
+
+                using (MySqlCommand copyCmd = new MySqlCommand(copySql, conn))
+                {
+                    copyCmd.Parameters.AddWithValue("@id", kijeloltId);
+                    int rows = copyCmd.ExecuteNonQuery();
+
+                    if (rows > 0)
+                    {
+                        string deleteSql = "DELETE FROM Regist WHERE Id = @id;";
+                        using (MySqlCommand deleteCmd = new MySqlCommand(deleteSql, conn))
+                        {
+                            deleteCmd.Parameters.AddWithValue("@id", kijeloltId);
+                            deleteCmd.ExecuteNonQuery();
+                        }
+                    }
+                }
             }
-            button2.Visible= false; button1.Visible=false;
+            Frissites();
         }
     }
 }
