@@ -18,7 +18,6 @@ CREATE TABLE Users (
     Id INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(255) NOT NULL,
     Password VARCHAR(255) NOT NULL,
-    Osztaly VARCHAR(50),
     EventId INT,
     ImgNumber VARCHAR(255),
     Email VARCHAR(255),
@@ -35,7 +34,7 @@ CREATE TABLE Regist (
 
 
 INSERT INTO Users (Name, Password, Email, EventId, ImgNumber) 
-VALUES ('ADMIN', '$2a$12$/nUdlJaob1i0nGh/DdSpFuRdg2EuTCGwVO/zesIFhgcnqHoyxD.AS', 'admin@example.com', NULL, '1.png');
+VALUES ('ADMIN', '$2a$12$/nUdlJaob1i0nGh/DdSpFuRdg2EuTCGwVO/zesIFhgcnqHoyxD.AS', '@@@@@', NULL, '1.png');
 
 INSERT INTO Eventt (Name, Descr, Datetol, Dateig, Categ, Important, Wheres)
 VALUES
