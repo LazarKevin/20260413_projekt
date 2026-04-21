@@ -21,7 +21,7 @@ CREATE TABLE Users (
     EventId INT,
     ImgNumber VARCHAR(255),
     Email VARCHAR(255),
-    AdminE BOOLEAN
+    AdminE BOOLEAN,
     FOREIGN KEY (EventId) REFERENCES Eventt(Id)
 );
 
