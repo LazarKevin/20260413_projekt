@@ -29,7 +29,8 @@ CREATE TABLE Regist (
     Id INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(255),
     Password VARCHAR(255),
-    Email VARCHAR(255)
+    Email VARCHAR(255),
+    Admin-e VARCHAR(255)
 );
 
 
