@@ -30,6 +30,7 @@ CREATE TABLE Regist (
     Name VARCHAR(255),
     Password VARCHAR(255),
     Email VARCHAR(255),
+    imgNumber VARCHAR(255),
     AdminE VARCHAR(255)
 );
 
