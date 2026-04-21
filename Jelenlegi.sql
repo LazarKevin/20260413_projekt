@@ -36,7 +36,7 @@ CREATE TABLE Regist (
 );
 
 
-INSERT INTO Users (Name, Password, Email, EventId, ImgNumber, AdmineE) 
+INSERT INTO Users (Name, Password, Email, EventId, ImgNumber, AdminE) 
 VALUES ('ADMIN', '$2a$12$/nUdlJaob1i0nGh/DdSpFuRdg2EuTCGwVO/zesIFhgcnqHoyxD.AS', '@@@@@', NULL, '1.png', TRUE);
 
 INSERT INTO Eventt (Name, Descr, Datetol, Dateig, Categ, Important, Wheres)
