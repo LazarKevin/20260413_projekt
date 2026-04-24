@@ -54,26 +54,34 @@ namespace _20230413_projekt
             if (chcFontos.Checked) fontose = true;
             else fontose = false;
 
-                string kapcsolat = "server=localhost;database=iskola;uid=root;pwd=mysql";
+            string kapcsolat = "server=localhost;database=iskola;uid=root;pwd=mysql";
 
-            using (MySqlConnection con = new MySqlConnection(kapcsolat))
+            if (nev == "" || helyszin == "" || kategoria == "" || leiras == "" || meddig == DateTime.Now)
             {
-                con.Open();
-
-                string parancs = "INSERT INTO Eventt (Name, Descr, Datetol, Dateig, Categ, Important, Wheres) VALUES (@Name, @Descr, @Datetol, @Dateig, @Categ, @Important, @Wheres);";
-                MySqlCommand cmd = new MySqlCommand(parancs,con);
-                cmd.Parameters.AddWithValue("@Name",nev);
-                cmd.Parameters.AddWithValue("@Descr",leiras);
-                cmd.Parameters.AddWithValue("@Datetol",mettol);
-                cmd.Parameters.AddWithValue("@Dateig", meddig);
-                cmd.Parameters.AddWithValue("@Categ", kategoria);
-                cmd.Parameters.AddWithValue("@Important", fontose);
-                cmd.Parameters.AddWithValue("@Wheres", helyszin);
-
-                cmd.ExecuteNonQuery();
-                MessageBox.Show($"Sikeresen létrehoztad a '{nev}' nevezetű eseményt!", "Siker!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
+                MessageBox.Show("Kérlek adj meg minden adatot / helyes adatot");
             }
+            else
+            {
+                using (MySqlConnection con = new MySqlConnection(kapcsolat))
+                {
+                    con.Open();
+
+                    string parancs = "INSERT INTO Eventt (Name, Descr, Datetol, Dateig, Categ, Important, Wheres) VALUES (@Name, @Descr, @Datetol, @Dateig, @Categ, @Important, @Wheres);";
+                    MySqlCommand cmd = new MySqlCommand(parancs, con);
+                    cmd.Parameters.AddWithValue("@Name", nev);
+                    cmd.Parameters.AddWithValue("@Descr", leiras);
+                    cmd.Parameters.AddWithValue("@Datetol", mettol);
+                    cmd.Parameters.AddWithValue("@Dateig", meddig);
+                    cmd.Parameters.AddWithValue("@Categ", kategoria);
+                    cmd.Parameters.AddWithValue("@Important", fontose);
+                    cmd.Parameters.AddWithValue("@Wheres", helyszin);
+
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show($"Sikeresen létrehoztad a '{nev}' nevezetű eseményt!", "Siker!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Close();
+                }
+            }
+                
         }
 
         private void valtozoMegse(object sender, EventArgs e)

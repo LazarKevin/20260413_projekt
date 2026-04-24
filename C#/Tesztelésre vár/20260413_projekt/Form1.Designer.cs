@@ -173,7 +173,7 @@
             // 
             this.txt_kereso.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.txt_kereso.Location = new System.Drawing.Point(259, 117);
-            this.txt_kereso.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_kereso.Margin = new System.Windows.Forms.Padding(2);
             this.txt_kereso.Name = "txt_kereso";
             this.txt_kereso.Size = new System.Drawing.Size(155, 27);
             this.txt_kereso.TabIndex = 6;
@@ -181,10 +181,11 @@
             // 
             // comb_kategoria
             // 
+            this.comb_kategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comb_kategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.comb_kategoria.FormattingEnabled = true;
             this.comb_kategoria.Location = new System.Drawing.Point(835, 119);
-            this.comb_kategoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comb_kategoria.Margin = new System.Windows.Forms.Padding(2);
             this.comb_kategoria.Name = "comb_kategoria";
             this.comb_kategoria.Size = new System.Drawing.Size(175, 28);
             this.comb_kategoria.TabIndex = 7;
@@ -224,7 +225,7 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(748, 95);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(67, 65);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

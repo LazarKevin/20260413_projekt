@@ -37,13 +37,11 @@ namespace _20230413_projekt
         }
         string connStr = "server=localhost;database=iskola;uid=root;pwd=mysql;";
         int kijeloltId = -1;
+
         private void Form1_Load(object sender, EventArgs e)
         {
-
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             Frissites();
-
-
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)

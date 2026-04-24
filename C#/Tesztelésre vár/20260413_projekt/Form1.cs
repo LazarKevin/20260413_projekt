@@ -57,8 +57,7 @@ namespace _20230413_projekt
 
             pictureBox1.Image = Image.FromFile($"{regisztracio_bejelentkezes.i}.jpg");
 
-            comb_kategoria.Items.Add("Minden kategória");
-            comb_kategoria.SelectedIndex = 0;
+            
 
 
             string kapcsolat = "server=localhost;database=iskola;uid=root;pwd=mysql";
@@ -91,7 +90,10 @@ namespace _20230413_projekt
             using (MySqlConnection con = new MySqlConnection(kapcsolat))
             {
                 con.Open();
+                comb_kategoria.Items.Clear();
 
+                comb_kategoria.Items.Add("Minden kategória");
+                comb_kategoria.SelectedIndex = 0;
                 string cmd = $"SELECT DISTINCT eventt.Categ FROM eventt;";
                 MySqlCommand parancs = new MySqlCommand(cmd, con);
                 MySqlDataReader reader = parancs.ExecuteReader();
@@ -100,11 +102,16 @@ namespace _20230413_projekt
                     comb_kategoria.Items.Add(reader.GetString(0));
                 }
             }
+
+            for (int i = 0; i < Esemenyek.ColumnCount; i++)
+            {
+                Esemenyek.Columns[i].SortMode = DataGridViewColumnSortMode.NotSortable;
+            }
         }
 
         private void homeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Ott van!");
+            MessageBox.Show("Ott tartózkodik jelenleg!");
         }
 
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
@@ -134,26 +141,36 @@ namespace _20230413_projekt
 
         private void Esemenyek_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex == 0)
+            try
             {
-                return;
+                
+                szovegek.Clear();
+
+
+                id = Convert.ToInt32(Esemenyek.Rows[e.RowIndex].Cells["Id"].Value); // ID 
+                szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[1].Value.ToString()); // Nev
+                szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[2].Value.ToString()); // Desc
+                szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[3].Value.ToString()); // Datetol
+                szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[4].Value.ToString()); // Dateig
+                szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[5].Value.ToString()); // Categ
+                szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[7].Value.ToString()); // Wheres
+
+                for (int i = 0; i < szovegek.Count; i++)
+                {
+                    MessageBox.Show(szovegek[i]);
+                }
+
+                Esemeny_adatai a = new Esemeny_adatai();
+                a.ShowDialog();
             }
+            catch (Exception)
+            {
 
-
-            szovegek.Clear();
-
+            }
             
-            id = Convert.ToInt32(Esemenyek.Rows[e.RowIndex].Cells["Id"].Value); // ID 
-            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[1].Value.ToString()); // Nev
-            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[2].Value.ToString()); // Desc
-            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[3].Value.ToString()); // Datetol
-            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[4].Value.ToString()); // Dateig
-            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[5].Value.ToString()); // Categ
-            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[6].Value.ToString()); // Wheres
 
 
-            Esemeny_adatai a = new Esemeny_adatai();
-            a.ShowDialog();
+           
         }
 
         private void comb_kategoria_SelectedIndexChanged(object sender, EventArgs e)
@@ -200,7 +217,7 @@ namespace _20230413_projekt
             txt_kereso.Text = "";
             comb_kategoria.SelectedIndex = 0;
             Esemenyek.Rows.Clear();
-
+            comb_kategoria.Items.Clear();
 
             string kapcsolat = "server=localhost;database=iskola;uid=root;pwd=mysql";
 
@@ -221,7 +238,8 @@ namespace _20230413_projekt
             using (MySqlConnection con = new MySqlConnection(kapcsolat))
             {
                 con.Open();
-
+                comb_kategoria.Items.Add("Minden kategória");
+                comb_kategoria.SelectedIndex = 0;
                 string cmd = $"SELECT DISTINCT eventt.Categ FROM eventt;";
                 MySqlCommand parancs = new MySqlCommand(cmd, con);
                 MySqlDataReader reader = parancs.ExecuteReader();

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,8 +47,8 @@ namespace _20230413_projekt
                     parancs.Parameters.AddWithValue("@id", admin.id);
                     parancs.Parameters.AddWithValue("@name", txt_nev.Text);
                     parancs.Parameters.AddWithValue("@descr", rtxt_leiras.Text);
-                    parancs.Parameters.AddWithValue("@datetol", DateTime.Parse( txt_mettol.Text));
-                    parancs.Parameters.AddWithValue("@dateig", DateTime.Parse(txt_meddig.Text));
+                    parancs.Parameters.AddWithValue("@datetol", DateTime.Parse( txt_mettol.Text, CultureInfo.InvariantCulture));
+                    parancs.Parameters.AddWithValue("@dateig", DateTime.Parse(txt_meddig.Text, CultureInfo.InvariantCulture));
                     parancs.Parameters.AddWithValue("@categ", txt_categ.Text);
                     parancs.Parameters.AddWithValue("@important", chbox_fontos.Checked);
                     parancs.Parameters.AddWithValue("@wheres", txt_helyszin.Text);

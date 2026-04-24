@@ -34,12 +34,13 @@ namespace _20230413_projekt
         {
             string kapcsolat = "server=localhost;database=iskola;uid=root;pwd=mysql";
 
-            tipus.Items.Add("Minden kategória");
-            tipus.SelectedIndex = 0;
+            
             using (MySqlConnection con = new MySqlConnection(kapcsolat))
             {
                 con.Open();
-
+                tipus.Items.Clear();
+                tipus.Items.Add("Minden kategória");
+                tipus.SelectedIndex = 0;
                 string cmd = $"SELECT DISTINCT eventt.categ FROM eventt";
                 MySqlCommand parancs = new MySqlCommand(cmd, con);
                 MySqlDataReader reader = parancs.ExecuteReader();
@@ -161,6 +162,7 @@ namespace _20230413_projekt
             kereso.Text = "";
             tipus.SelectedIndex = 0;
             dgv_admin_esemenyek.Rows.Clear();
+            tipus.Items.Clear();
 
             string kapcsolat = "server=localhost;database=iskola;uid=root;pwd=mysql";
 
@@ -181,7 +183,8 @@ namespace _20230413_projekt
             using (MySqlConnection con = new MySqlConnection(kapcsolat))
             {
                 con.Open();
-
+                tipus.Items.Add("Minden kategória");
+                tipus.SelectedIndex = 0;
                 string cmd = $"SELECT DISTINCT eventt.Categ FROM eventt;";
                 MySqlCommand parancs = new MySqlCommand(cmd, con);
                 MySqlDataReader reader = parancs.ExecuteReader();
