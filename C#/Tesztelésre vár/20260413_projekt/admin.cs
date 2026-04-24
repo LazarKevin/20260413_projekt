@@ -34,7 +34,7 @@ namespace _20230413_projekt
         {
             string kapcsolat = "server=localhost;database=iskola;uid=root;pwd=mysql";
 
-            tipus.Items.Add("Minden kategoria");
+            tipus.Items.Add("Minden kategória");
             tipus.SelectedIndex = 0;
             using (MySqlConnection con = new MySqlConnection(kapcsolat))
             {
@@ -75,6 +75,8 @@ namespace _20230413_projekt
 
 
             }
+
+            
             
             Timer t = new Timer();
             t.Interval = 2;
@@ -91,18 +93,19 @@ namespace _20230413_projekt
         private void tipus_SelectedIndexChanged(object sender, EventArgs e)
         {
             string melyik = tipus.SelectedItem.ToString();
+            string keres = kereso.Text.ToLower();
 
-            foreach (DataGridViewRow row in dgv_admin_esemenyek.Rows) 
+            foreach (DataGridViewRow row in dgv_admin_esemenyek.Rows)
             {
-                if (tipus.SelectedIndex == 0)
+                if (row.Cells[5].Value.ToString() == melyik && row.Cells[1].Value.ToString().ToLower().Contains(keres))
                 {
                     row.Visible = true;
                 }
-                else if (row.Cells[4].Value.ToString() == melyik)
+                else if (melyik == "Minden kategória" && row.Cells[1].Value.ToString().ToLower().Contains(keres))
                 {
                     row.Visible = true;
                 }
-                else 
+                else
                 {
                     row.Visible = false;
                 }
@@ -116,10 +119,11 @@ namespace _20230413_projekt
 
         private void kereso_TextChanged(object sender, EventArgs e)
         {
+            string melyik = tipus.SelectedItem.ToString();
             string keres = kereso.Text.ToLower();
             foreach (DataGridViewRow row in dgv_admin_esemenyek.Rows)
             {
-                if (row.Cells[0].Value.ToString().ToLower().Contains(keres))
+                if ((row.Cells[1].Value.ToString().ToLower().Contains(keres) && row.Cells[5].Value.ToString() == tipus.Text) || (row.Cells[1].Value.ToString().ToLower().Contains(keres) && melyik == "Minden kategória"))
                 {
                     row.Visible = true;
                 }
@@ -156,7 +160,6 @@ namespace _20230413_projekt
         {
             kereso.Text = "";
             tipus.SelectedIndex = 0;
-            datum.Value = DateTime.Now;
             dgv_admin_esemenyek.Rows.Clear();
 
             string kapcsolat = "server=localhost;database=iskola;uid=root;pwd=mysql";
@@ -218,6 +221,11 @@ namespace _20230413_projekt
             }
         }
 
+        private void valtozo_admin_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button5_Click(object sender, EventArgs e)
         {
             elfogadcs a = new elfogadcs();
@@ -231,6 +239,7 @@ namespace _20230413_projekt
             else if (b > 0 && g == 0) { b--; r++; }
 
             valtozo_admin.ForeColor = Color.FromArgb(r, g, b);
+            button5.BackColor = Color.FromArgb(r, g, b);
         }
     }
 }

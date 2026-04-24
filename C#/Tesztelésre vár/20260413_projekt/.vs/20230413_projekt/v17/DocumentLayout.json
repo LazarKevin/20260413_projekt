@@ -1,62 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\",
+  "WorkspaceRootPath": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\regisztracio_bejelentkezes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:regisztracio_bejelentkezes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|c:\\users\\lazarkevin\\documents\\github\\20260413_projekt\\c#\\tesztel\u00E9sre v\u00E1r\\20260413_projekt\\modosit(admin).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:modosit(admin).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|c:\\users\\dcfio\\onedrive\\dokumentumok\\github\\20260413_projekt\\c#\\tesztel\u00E9sre v\u00E1r\\20260413_projekt\\esemeny_adatai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:esemeny_adatai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\regisztracio_bejelentkezes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:regisztracio_bejelentkezes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\esemeny_adatai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\esemeny_adatai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:esemeny_adatai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\regisztracio_bejelentkezes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:regisztracio_bejelentkezes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|c:\\users\\lazarkevin\\documents\\github\\20260413_projekt\\c#\\tesztel\u00E9sre v\u00E1r\\20260413_projekt\\regisztracio_bejelentkezes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:regisztracio_bejelentkezes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\esemeny_adatai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:esemeny_adatai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\esemeny_letrehozasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:esemeny_letrehozasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\esemeny_letrehozasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:esemeny_letrehozasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\elfogadcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:elfogadcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\elfogadcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:elfogadcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\modosit(admin).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:modosit(admin).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\modosit(admin).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:modosit(admin).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\elfogadcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:elfogadcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\elfogadcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:elfogadcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\modosit(admin).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:modosit(admin).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\esemeny_letrehozasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:esemeny_letrehozasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\esemeny_letrehozasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CAE64-F48F-4714-B6F0-1AA023AB13FA}|20230413_projekt.csproj|solutionrelative:esemeny_letrehozasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,79 +71,35 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Modosit(Admin).cs",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Modosit(Admin).cs",
-              "RelativeDocumentMoniker": "Modosit(Admin).cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Modosit(Admin).cs",
-              "RelativeToolTip": "Modosit(Admin).cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAYwCoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T17:22:43.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Modosit(Admin).cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Modosit(Admin).cs",
-              "RelativeDocumentMoniker": "Modosit(Admin).cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Asztali g\u00E9p\\20260413_projekt-20260421T145752Z-3-001\\20260413_projekt\\Modosit(Admin).cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Asztali g\u00E9p\\20260413_projekt-20260421T145752Z-3-001\\20260413_projekt\\Modosit(Admin).cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T17:22:39.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "elfogadcs.cs",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\elfogadcs.cs",
-              "RelativeDocumentMoniker": "elfogadcs.cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\elfogadcs.cs",
-              "RelativeToolTip": "elfogadcs.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowGwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T16:44:38.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "elfogadcs.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\elfogadcs.cs",
-              "RelativeDocumentMoniker": "elfogadcs.cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Asztali g\u00E9p\\20260413_projekt-20260421T145752Z-3-001\\20260413_projekt\\elfogadcs.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Asztali g\u00E9p\\20260413_projekt-20260421T145752Z-3-001\\20260413_projekt\\elfogadcs.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T16:44:36.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Esemeny_Letrehozasa.cs",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_Letrehozasa.cs",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_Letrehozasa.cs",
               "RelativeDocumentMoniker": "Esemeny_Letrehozasa.cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_Letrehozasa.cs",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_Letrehozasa.cs",
               "RelativeToolTip": "Esemeny_Letrehozasa.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAqwEoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T09:45:26.778Z"
+              "WhenOpened": "2026-04-17T09:45:26.778Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Esemeny_Letrehozasa.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_Letrehozasa.cs",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_Letrehozasa.cs",
               "RelativeDocumentMoniker": "Esemeny_Letrehozasa.cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Asztali g\u00E9p\\20260413_projekt-20260421T145752Z-3-001\\20260413_projekt\\Esemeny_Letrehozasa.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Asztali g\u00E9p\\20260413_projekt-20260421T145752Z-3-001\\20260413_projekt\\Esemeny_Letrehozasa.cs [Design]",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_Letrehozasa.cs [Design]",
+              "RelativeToolTip": "Esemeny_Letrehozasa.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T09:45:24.075Z"
+              "WhenOpened": "2026-04-17T09:45:24.075Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Esemeny_adatai.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_adatai.cs",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_adatai.cs",
               "RelativeDocumentMoniker": "Esemeny_adatai.cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_adatai.cs [Design]",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_adatai.cs [Design]",
               "RelativeToolTip": "Esemeny_adatai.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T08:16:28.903Z",
@@ -151,37 +107,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Esemeny_adatai.cs",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_adatai.cs",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_adatai.cs",
               "RelativeDocumentMoniker": "Esemeny_adatai.cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_adatai.cs",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Esemeny_adatai.cs",
               "RelativeToolTip": "Esemeny_adatai.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAcwEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T08:26:00.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "admin.cs",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\admin.cs",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\admin.cs",
               "RelativeDocumentMoniker": "admin.cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\admin.cs",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\admin.cs",
               "RelativeToolTip": "admin.cs",
-              "ViewState": "AgIAAMQAAAAAAAAAAAAcwN4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAIA0wD8AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T16:49:23.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "admin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\admin.cs",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\admin.cs",
               "RelativeDocumentMoniker": "admin.cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\admin.cs [Design]",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\admin.cs [Design]",
               "RelativeToolTip": "admin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T16:34:53.232Z",
@@ -191,22 +147,22 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "regisztracio_bejelentkezes.cs",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\regisztracio_bejelentkezes.cs",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\regisztracio_bejelentkezes.cs",
               "RelativeDocumentMoniker": "regisztracio_bejelentkezes.cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\regisztracio_bejelentkezes.cs",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\regisztracio_bejelentkezes.cs",
               "RelativeToolTip": "regisztracio_bejelentkezes.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAxwKIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAApwHAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T15:46:00.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "regisztracio_bejelentkezes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\regisztracio_bejelentkezes.cs",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\regisztracio_bejelentkezes.cs",
               "RelativeDocumentMoniker": "regisztracio_bejelentkezes.cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\regisztracio_bejelentkezes.cs [Design]",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\regisztracio_bejelentkezes.cs [Design]",
               "RelativeToolTip": "regisztracio_bejelentkezes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T15:39:27.791Z",
@@ -214,26 +170,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAA/wJEAAABYAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "elfogadcs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\elfogadcs.cs",
+              "RelativeDocumentMoniker": "elfogadcs.cs",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\elfogadcs.cs [Design]",
+              "RelativeToolTip": "elfogadcs.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T08:50:33.424Z"
+              "WhenOpened": "2026-04-21T16:44:36.092Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dcfio\\OneDrive\\Dokumentumok\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\dcfio\\OneDrive\\Asztali g\u00E9p\\20260413_projekt-20260421T145752Z-3-001\\20260413_projekt\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Asztali g\u00E9p\\20260413_projekt-20260421T145752Z-3-001\\20260413_projekt\\Form1.cs [Design]",
+              "DocumentIndex": 9,
+              "Title": "elfogadcs.cs",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\elfogadcs.cs",
+              "RelativeDocumentMoniker": "elfogadcs.cs",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\elfogadcs.cs",
+              "RelativeToolTip": "elfogadcs.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwFAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T08:43:30.614Z"
+              "WhenOpened": "2026-04-21T16:44:38.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Modosit(Admin).cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Modosit(Admin).cs",
+              "RelativeDocumentMoniker": "Modosit(Admin).cs",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Modosit(Admin).cs [Design]",
+              "RelativeToolTip": "Modosit(Admin).cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T17:22:39.534Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Modosit(Admin).cs",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Modosit(Admin).cs",
+              "RelativeDocumentMoniker": "Modosit(Admin).cs",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Modosit(Admin).cs",
+              "RelativeToolTip": "Modosit(Admin).cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAewBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T09:18:14.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAhwGoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T08:50:33.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\lazarkevin\\Documents\\GitHub\\20260413_projekt\\C#\\Tesztel\u00E9sre v\u00E1r\\20260413_projekt\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T08:43:30.614Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -10,6 +10,7 @@ using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -82,16 +83,6 @@ namespace _20230413_projekt
 
                 nev = txtbox_felhaszn.Text;
 
-                /*
-                string password = txtbox_jelszo.Text;
-                string titkositott = BCrypt.Net.BCrypt.EnhancedHashPassword(password,12);
-
-                if (BCrypt.Net.BCrypt.EnhancedVerify("ADMIN", titkositott))
-                { 
-                    MessageBox.Show("Admin vagy!");
-                }
-                */
-
                 if (regisztracio)
                 {
                     string kapcsolat = "server=localhost;database=iskola;uid=root;pwd=mysql";
@@ -102,7 +93,7 @@ namespace _20230413_projekt
 
                         string nev = txtbox_felhaszn.Text;
                         string jelszo = txtbox_jelszo.Text;
-                        string titkositott = BCrypt.Net.BCrypt.HashPassword(jelszo,                         BCrypt.Net.BCrypt.GenerateSalt());
+                        string titkositott = BCrypt.Net.BCrypt.HashPassword(jelszo, BCrypt.Net.BCrypt.GenerateSalt());
                         string email = txt_email.Text;
                         int imgnumber = i;
                         bool adminE = ADMINE; 
@@ -116,7 +107,11 @@ namespace _20230413_projekt
                         parancs.Parameters.AddWithValue("@AdminE", adminE);
 
                         parancs.ExecuteNonQuery();
-                        MessageBox.Show("Sikeres regisztráció!");
+                        MessageBox.Show("Sikeres regisztráció!\nAddig nem bír bejelentkezni míg egy ADMIN el nem fogadja!","FONTOS!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Az ablak bezárul 3 másodperc múlva!");
+                        Thread.Sleep(3000);
+
+                        this.Close();
                         connection.Close();
                     }
                 }

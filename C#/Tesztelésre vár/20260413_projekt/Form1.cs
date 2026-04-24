@@ -104,7 +104,7 @@ namespace _20230413_projekt
 
         private void homeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Home");
+            MessageBox.Show("Ott van!");
         }
 
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
@@ -143,12 +143,12 @@ namespace _20230413_projekt
             szovegek.Clear();
 
             
-            id = Convert.ToInt32(Esemenyek.Rows[e.RowIndex].Cells["DbId"].Value); // ID 
-            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[0].Value.ToString()); // Nev
-            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[1].Value.ToString()); // Desc
-            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[2].Value.ToString()); // Datetol
-            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[3].Value.ToString()); // Dateig
-            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[4].Value.ToString()); // Categ
+            id = Convert.ToInt32(Esemenyek.Rows[e.RowIndex].Cells["Id"].Value); // ID 
+            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[1].Value.ToString()); // Nev
+            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[2].Value.ToString()); // Desc
+            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[3].Value.ToString()); // Datetol
+            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[4].Value.ToString()); // Dateig
+            szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[5].Value.ToString()); // Categ
             szovegek.Add(Esemenyek.Rows[e.RowIndex].Cells[6].Value.ToString()); // Wheres
 
 
@@ -159,14 +159,15 @@ namespace _20230413_projekt
         private void comb_kategoria_SelectedIndexChanged(object sender, EventArgs e)
         {
             string melyik = comb_kategoria.SelectedItem.ToString();
+            string keres = txt_kereso.Text.ToLower();
 
             foreach (DataGridViewRow row in Esemenyek.Rows)
             {
-                if (row.Cells[4].Value.ToString() == melyik)
+                if (row.Cells[5].Value.ToString() == melyik && row.Cells[1].Value.ToString().ToLower().Contains(keres))
                 {
                     row.Visible = true;
                 }
-                else if (melyik == "Minden kategória")
+                else if (melyik == "Minden kategória" && row.Cells[1].Value.ToString().ToLower().Contains(keres))
                 {
                     row.Visible = true;
                 }
@@ -179,10 +180,11 @@ namespace _20230413_projekt
 
         private void txt_kereso_TextChanged(object sender, EventArgs e)
         {
+            string melyik = comb_kategoria.SelectedItem.ToString();
             string keres = txt_kereso.Text.ToLower();
             foreach (DataGridViewRow row in Esemenyek.Rows)
             {
-                if (row.Cells[0].Value.ToString().ToLower().Contains(keres))
+                if ((row.Cells[1].Value.ToString().ToLower().Contains(keres) && row.Cells[5].Value.ToString() == comb_kategoria.Text) || (row.Cells[1].Value.ToString().ToLower().Contains(keres) && melyik == "Minden kategória"))
                 {
                     row.Visible = true;
                 }
@@ -212,7 +214,7 @@ namespace _20230413_projekt
                 MySqlDataReader reader = parancs.ExecuteReader();
                 while (reader.Read())
                 {
-                    Esemenyek.Rows.Add(reader.GetString(1), reader.GetString(2), reader.GetDateTime(3), reader.GetDateTime(4), reader.GetString(5), reader.GetBoolean(6), reader.GetString(7));
+                    Esemenyek.Rows.Add(reader.GetInt32(0) ,reader.GetString(1), reader.GetString(2), reader.GetDateTime(3), reader.GetDateTime(4), reader.GetString(5), reader.GetBoolean(6), reader.GetString(7));
                 }
 
             }
@@ -243,11 +245,11 @@ namespace _20230413_projekt
                 {
                     if (asd.Text.Contains(nevek[i]))
                     {
-                        szovegek.Add(Esemenyek.Rows[i].Cells[0].Value.ToString()); // Nev
-                        szovegek.Add(Esemenyek.Rows[i].Cells[1].Value.ToString()); // Desc
-                        szovegek.Add(Esemenyek.Rows[i].Cells[2].Value.ToString()); // Datetol
-                        szovegek.Add(Esemenyek.Rows[i].Cells[3].Value.ToString()); // Dateig
-                        szovegek.Add(Esemenyek.Rows[i].Cells[4].Value.ToString()); // Categ
+                        szovegek.Add(Esemenyek.Rows[i].Cells[1].Value.ToString()); // Nev
+                        szovegek.Add(Esemenyek.Rows[i].Cells[2].Value.ToString()); // Desc
+                        szovegek.Add(Esemenyek.Rows[i].Cells[3].Value.ToString()); // Datetol
+                        szovegek.Add(Esemenyek.Rows[i].Cells[4].Value.ToString()); // Dateig
+                        szovegek.Add(Esemenyek.Rows[i].Cells[5].Value.ToString()); // Categ
                         szovegek.Add(Esemenyek.Rows[i].Cells[6].Value.ToString()); // Wheres
                     }
                 }

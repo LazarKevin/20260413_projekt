@@ -25,6 +25,7 @@ namespace _20230413_projekt
         {
             pictureBox1.Image = Image.FromFile($"{regisztracio_bejelentkezes.i}.jpg");
 
+            
             label1.Text = Form1.szovegek[0];
             nev = Form1.szovegek[0];
             label5.Text = Form1.szovegek[0];

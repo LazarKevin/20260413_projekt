@@ -198,7 +198,7 @@
             this.MaximumSize = new System.Drawing.Size(619, 461);
             this.MinimumSize = new System.Drawing.Size(619, 461);
             this.Name = "Esemeny_adatai";
-            this.Text = "Form1";
+            this.Text = "Esemeny_Adatai";
             this.Load += new System.EventHandler(this.Esemeny_adatai_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

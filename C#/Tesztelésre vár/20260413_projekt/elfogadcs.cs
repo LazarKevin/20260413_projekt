@@ -78,13 +78,12 @@ namespace _20230413_projekt
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (kijeloltId == -1) return; // Érdemes ide is tenni egy ellenőrzést!
+            if (kijeloltId == -1) return;
 
             using (MySqlConnection conn = new MySqlConnection(connStr))
             {
                 conn.Open();
 
-                // JAVÍTOTT SQL: Szóköz a FROM előtt, és NULL az EventId helyett a SELECT részben
                 string copySql = "INSERT INTO Users (Name, Password, EventId, ImgNumber, Email, AdminE) " +
                                  "SELECT Name, Password, NULL, imgNumber, Email, AdminE " +
                                  "FROM Regist WHERE Id = @id;";
